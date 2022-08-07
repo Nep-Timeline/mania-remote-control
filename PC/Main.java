@@ -46,7 +46,7 @@ public class Main {
         private final int y;
         private final int keyCode;
 
-        public Check(int x, int y, int keyCode) throws AWTException {
+        public Check(int x, int y, int keyCode) {
             this.x = x;
             this.y = y;
             this.keyCode = keyCode;
